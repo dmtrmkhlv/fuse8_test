@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+.wrapper {
+  margin: 0 50px;
+  padding: 0 25px;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.wrapper h1 {
+  margin-top: 36px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #45852D;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards-filter {
+  margin-bottom: 45px;
+  margin-top: 43px;
+  margin-left: 10px;
+}
+
+.cards-filter label {
+  margin-right: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #363636;
+}
+
+.cards-filter input {
+  width: 418px;
+  height: 50px;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 25px;
+  outline: none;
+}
+
+.cards-filter input:hover {
+  -webkit-box-shadow: 0 0 10px #d8d8d8;
+          box-shadow: 0 0 10px #d8d8d8;
+}
+
+.cards-more {
+  width: 100%;
+  margin: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards-more button {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #D8D8D8;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #363636;
+  cursor: pointer;
+}
+
+.cards-more button:hover {
+  background: #F2F2F2;
+}
+
+.card {
+  margin: 0 10px;
+  width: 30%;
+  background: #F8F8F8;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 8px 11px 5px 10px;
+  color: #ffffff;
+}
+
+.card-image-img {
+  height: 233px;
+  background: center center/cover no-repeat;
+  background-position: top;
+}
+
+.card-info {
+  color: #363636;
+  margin: 10px;
+}
+
+.card-info h3 {
+  margin: 7px 0px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card-info p {
+  margin: 7px 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card-info .card-address {
+  margin: 7px 0px 14px 0px;
+}
+
+.card-info p:last-child {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #d8d8d8;
+          box-shadow: 0 0 10px #d8d8d8;
+}
+
+@media (max-width: 750px) {
+  .cards-filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cards-filter input {
+    width: 90%;
+  }
+  .card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
